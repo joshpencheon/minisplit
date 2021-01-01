@@ -5,14 +5,15 @@ Gem::Specification.new do |spec|
   spec.version       = Minisplit::VERSION
   spec.authors       = ["Josh Pencheon"]
   spec.email         = ["josh.pencheon@googlemail.com"]
+  spec.homepage      = "https://rubygems.org/gems/minisplit"
 
   spec.summary       = %q{Really Simple Splitting of your minitest suite.}
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  # spec.metadata["homepage_uri"] = spec.homepage
-  # spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/joshpencheon/minisplit"
+  spec.metadata["changelog_uri"] = "https://github.com/joshpencheon/minisplit/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
