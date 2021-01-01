@@ -25,7 +25,7 @@ module Minisplit
     end
 
     def split_count
-      ENV.fetch('MINISPLIT_TOTAL', 1).to_i
+      [ENV.fetch('MINISPLIT_TOTAL', 1).to_i, 1].max
     end
 
     def split_key_for(runnable)
