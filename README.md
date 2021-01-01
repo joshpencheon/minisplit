@@ -1,4 +1,4 @@
-# Minisplit ![Build](https://github.com/joshpencheon/minisplit/workflows/Ruby/badge.svg)
+# Minisplit ![Build](https://github.com/joshpencheon/minisplit/workflows/Ruby/badge.svg)  [![Gem Version](https://badge.fury.io/rb/minisplit.svg)](https://badge.fury.io/rb/minisplit)
 
 Really Simple Splitting of your minitest suite.
 
