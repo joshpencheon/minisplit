@@ -15,7 +15,6 @@ module Minisplit
 
   class << self
     def run?(runnable)
-      split_count == 1 ||
       split_key_for(runnable) % split_count == current_split
     end
 
