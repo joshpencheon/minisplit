@@ -1,4 +1,4 @@
-# Minisplit
+# Minisplit ![Build](https://github.com/joshpencheon/minisplit/workflows/Ruby/badge.svg)
 
 Really Simple Splitting of your minitest suite.
 
