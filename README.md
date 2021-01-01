@@ -12,7 +12,7 @@ gem 'minisplit'
 
 In your `test_helper.rb`, add:
 
-```
+```ruby
 # test/test_helper.rb
 require 'minisplit/setup'
 ```
